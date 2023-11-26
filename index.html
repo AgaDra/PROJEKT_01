@@ -22,8 +22,10 @@
       <div class="container navigation-content">
         <span class="company">moja firma</span>
         <ul class="nav-item-list">
-          <li class="nav-item">o nas</li>
-          <li class="nav-item">oferta</li>
+          <li class="nav-item">
+            <a class="nav-cto" href="#about-us">O nas</a>
+          </li>
+          <li class="nav-item"><a class="nav-cto" href="#offer">oferta</a></li>
           <li class="not-allowed nav-item">kontakt</li>
         </ul>
       </div>
@@ -39,7 +41,7 @@
         <span class="main-header-heading-h2"
           >Nie wierz nam na słowo - sprawdź</span
         >
-        <button class="main-header-button">oferta</button>
+        <a href="#offer-button"></a><button class="main-header-button">oferta</button></a>
       </div>
       <div class="main-header-overlay"></div>
     </header>
@@ -47,7 +49,7 @@
     <main>
       <!-- CREW SECTION-->
 
-      <section class="section our-crew-section">
+      <section class="section our-crew-section" id="about-us">
         <div class="container our-crew-section-content">
           <h2 class="crew-section-heading-h2">Nasi specjaliści</h2>
           <ul class="our-crew-list">
@@ -88,8 +90,8 @@
       </section>
 
       <!-- OFFER SECTION -->
-      <section class="section offer-section">
-        <div class="offer-section-content">
+      <section class="section offer-section" id="offer">
+        <div class="container offer-section-content" id="offer-button">
           <h2 class="container offer-section-heading-h2">
             Czym zajmuje się nasza firma?
           </h2>
@@ -131,6 +133,7 @@
         <span class="rodo">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</span>
         <div class="footer-icons">
           <svg
+            class="insta-icons"
             width="31"
             height="31"
             viewBox="0 0 31 31"
@@ -153,8 +156,8 @@
               </clipPath>
             </defs>
           </svg>
-        </div>
-        <div class="footer-icons">
+          <!-- </div> -->
+          <!-- <div class="footer-icons"> -->
           <svg
             width="31"
             height="31"
