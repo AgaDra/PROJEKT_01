@@ -1,0 +1,281 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+/* ---NAVIGATION --- */
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  background-color: #4e4e4e;
+}
+
+.navigation-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company {
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-item-list {
+  display: flex;
+  gap: 46px;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f1f1f1;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.main-header {
+  position: relative;
+
+  width: 100%;
+  height: 570px;
+  background-image: url("/assets/Tło\ sekcji.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header-content {
+  position: relative;
+  z-index: 1;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.main-header-heading-h1 {
+  width: 570px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-header-heading-h2 {
+  width: 570px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-header-button {
+  width: 160px;
+  height: 40px;
+
+  background-color: transparent;
+
+  border: 3px solid #fff;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main-header-button:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.main-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #000000;
+  opacity: 15%;
+}
+
+.our-crew-section {
+  width: 100%;
+  height: 550px;
+  background-color: #f1f1f1;
+}
+
+/* ---OUR CREW SECTION--- */
+
+.our-crew-section {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.our-crew-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.crew-section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #152d41;
+}
+
+.our-crew-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-crew-list-element {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.our-crew-list-element:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.our-crew-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-element-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-element-content-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: start;
+}
+.list-element-content-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: end;
+}
+
+.crew-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.crew-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* <!-- OFFER SECTION --> */
+.offer-section {
+  width: 100%;
+  height: 700px;
+
+  background-color: #405d78;
+}
+
+.offer-section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.offer-section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+
+  margin-bottom: 50px;
+}
+.offer-tiles {
+  width: 720px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: auto;
+  gap: 50px;
+}
+
+.offer-tile {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+
+  background-color: #f1f1f1;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 0.5s linear;
+}
+
+.offer-tile:hover {
+  transform: scale (1.05);
+}
+
+.tile-heading {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.tile-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.new {
+  position: relative;
+}
+
+.orange-point {
+  width: 20px;
+  height: 20px;
+  background-color: #e07a64;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #4e4e4e;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons {
+  display: flex;
+  justify-self: end;
+}
