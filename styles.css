@@ -61,7 +61,7 @@ body {
 
 /* ---HEADER--- */
 
-.main-header {
+.main-page {
   position: relative;
 
   width: 100%;
@@ -72,7 +72,7 @@ body {
   background-position: center;
 }
 
-.main-header-content {
+.main-page-content {
   position: relative;
   z-index: 1;
 
@@ -83,18 +83,18 @@ body {
   gap: 50px;
 }
 
-.main-header-heading-h1 {
+.main-page-slogan {
   width: 570px;
   font-size: 36px;
   font-weight: 700;
 }
 
-.main-header-heading-h2 {
+.main-page-subtitle {
   width: 570px;
   font-size: 18px;
   font-weight: 700;
 }
-.main-header-button {
+.main-page-cto {
   width: fit-content;
   padding: 10px 50px;
 
@@ -107,15 +107,18 @@ body {
   font-weight: 700;
   color: #fff;
 
+  text-decoration: none;
+
   cursor: pointer;
+  transition-duration: 1s;
 }
 
-.main-header-button:hover {
+.main-page-cto:hover {
   color: #000000;
   background-color: #fff;
 }
 
-.main-header-overlay {
+.main-page-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -148,7 +151,7 @@ body {
   gap: 50px;
 }
 
-.crew-section-heading-h2 {
+.crew-section-slogan {
   font-size: 36px;
   font-weight: 700;
   color: #152d41;
@@ -183,7 +186,7 @@ body {
   gap: 20px;
 }
 
-.list-element-content-1 {
+.list-element-nth-of-type-odd {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -191,7 +194,7 @@ body {
   text-align: start;
 }
 
-.list-element-content-2 {
+.list-element-nth-of-type-even {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -199,7 +202,7 @@ body {
   text-align: end;
 }
 
-.crew-heading {
+.crew-name {
   font-size: 18px;
   font-weight: 700;
   color: #000000;
@@ -214,7 +217,7 @@ body {
 /* <!-- OFFER SECTION --> */
 .offer-section {
   width: 100%;
-  height: 700px;
+  height: auto;
 
   background-color: #405d78;
 }
@@ -225,8 +228,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.offer-section-heading-h2 {
-  margin-top: 15px;
+.offer-section-slogan {
   font-size: 36px;
   font-weight: 700;
   color: #ffffff;
@@ -262,7 +264,7 @@ body {
   scale: 1.05;
 }
 
-.tile-heading {
+.tile-text {
   font-size: 24px;
   font-weight: 400;
   color: #000000;
