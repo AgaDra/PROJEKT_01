@@ -236,7 +236,7 @@ body {
 
 .offer-tiles {
   width: fit-content;
-  padding: 65px 24px;
+  padding: 65px 0px 0px 0px;
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px;
