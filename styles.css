@@ -309,3 +309,6 @@ body {
   display: flex;
   gap: 20px;
 }
+.icon {
+  color: #fafafa;
+}
